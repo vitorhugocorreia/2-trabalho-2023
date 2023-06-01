@@ -1,9 +1,17 @@
+@import url("styles/header.css");
 :root {
     --cor-de-fundo: #EBECEE;
     }
 body {
     background-color: var(--cor-de-fundo);
     }
-h1 {
-    background-color: white;
+.cabeçalho__menu-hamburguer {
+        width: 24px;
+        height: 24px;
+        background-image: url("../img/Menu.svg");
+        display: inline-block;
+    }
+:root {
+        --cor-de-fundo: #EBECEE;
+        --branco: #FFFFFF;
     }    
