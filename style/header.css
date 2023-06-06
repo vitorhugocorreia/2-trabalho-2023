@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     }
 .container {
         display: flex;
@@ -18,4 +19,12 @@
         background-repeat: no-repeat;
         background-position: center;
         display: inline-block;
-    }        
+    } 
+.lista-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+    }  
+.container__botao:checked ~ .lista-menu {
+        display: block;
+    }             
