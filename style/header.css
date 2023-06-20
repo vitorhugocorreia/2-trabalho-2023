@@ -1,3 +1,4 @@
+@import url("styles/header.css");
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
